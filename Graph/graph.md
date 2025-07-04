@@ -140,7 +140,7 @@ bool hasCycle(int node, int parent, vector<bool>& visited, vector<vector<int>>& 
 }
 ```
 
-#### ✅ Topological Sort (Kahn’s Algorithm - BFS)
+#### ✅ Topological Sort (Kahn’s Algorithm - BFS) for directed graph
 
 ```cpp
 vector<int> topoSort(int V, vector<pair<int, int>>& edges) {
